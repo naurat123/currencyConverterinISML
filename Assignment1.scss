@@ -1,0 +1,83 @@
+body{
+    background: coral;
+}
+h1{
+    font-family: "sofia";
+}
+#finalAmount{
+    text-align:center;
+    font-size: small;
+}
+.buttons{
+    margin-top: 3%;
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+
+.form-group{
+    padding: 8%;
+    margin-top: 19px;
+    margin-left: -7%; 
+    background-color: lightgoldenrodyellow;
+    border-radius: 4%;
+}
+.form-control{
+    margin-bottom:10%;
+}
+#finalAmount{
+    text-align:center;
+    font-size: x-small;
+}
+
+.input__label {
+    position: absolute;
+    left: 4.9em;
+    top: 45.1%;
+    transform: translateY(-50%);
+    color: rgb(158, 157, 158);
+    font-size: large;
+    font-weight: 200;
+  }
+
+  /* #searchBox :hover .input__label body{
+    position: absolute;
+    left: 1.7em;
+    top: 35%;
+    transform: translateY(-50%);
+    color: rgb(170, 19, 19);
+    font-size: large;
+    font-weight: 200;  
+    background-color: darkorchid;
+  } */
+
+
+@media (max-width:580px){
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+    .col-xs-6{
+        width: 100%;
+        text-align:center;
+        font-size: small;
+    }
+    .form-group{
+        width: 100%;
+        margin-top: 19px;
+        margin-left: -7%;
+    }
+    .form-control{
+        margin-bottom:10%;
+    }
+    h2{
+        text-align:center;
+        font-size: large;
+        color: seashell;
+    }
+    .buttons{
+        margin-top: 3%;
+    }
+    
+}
